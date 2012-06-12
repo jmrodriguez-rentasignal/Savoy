@@ -1,0 +1,58 @@
+<div>
+    <div id="mainMenu">
+        <div dojoType="dijit.MenuBar" id="navMenu">
+            <div dojoType="dijit.PopupMenuBarItem">
+                <span>
+                Applications
+                </span>
+                <div dojoType="dijit.Menu" id="ApplicationsMenu">
+                    <div dojoType="dijit.MenuItem" dojoAttachPoint="newApplicationMenu">
+                        Nueva
+                    </div>
+                    <div dojoType="dijit.MenuItem" dojoAttachPoint="viewApplicationsMenu">
+                        Lista
+                    </div>
+                    <div dojoType="dijit.MenuItem" dojoAttachPoint="configApplicationMenu">
+                        Configuracion
+                    </div>
+                </div>
+            </div>
+
+            <div dojoType="dijit.PopupMenuBarItem">
+                <span>
+                Objetos
+                </span>
+                <div dojoType="dijit.Menu" id="objectsMenu">
+                    <div dojoType="dijit.MenuItem" dojoAttachPoint="newObjectMenu">
+                        Nuevo
+                    </div>
+                    <div dojoType="dijit.MenuItem" dojoAttachPoint="viewObjectsMenu">
+                        Lista
+                    </div>                    
+                </div>
+            </div>
+
+            <div dojoType="dijit.PopupMenuBarItem">
+                <span>
+                Website
+                </span>
+                <div dojoType="dijit.Menu" id="websiteMenu">
+                    <div dojoType="dijit.MenuItem" dojoAttachPoint="newPageMenu">
+                        Nueva pagina
+                    </div>
+                    <div dojoType="dijit.MenuItem" dojoAttachPoint="viewPagesMenu">
+                        Lista
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Tabs principales -->
+        <div dojoType="dijit.layout.ContentPane" dojoAttachPoint="content" style="width: 100%; height: 100%;">
+            
+        </div>
+
+    </div>
+</div>
